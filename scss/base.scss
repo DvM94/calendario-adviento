@@ -1,0 +1,99 @@
+.header{
+    position: relative;
+    padding: 20px;
+    background: rgb(68, 68, 68);
+    color: white;
+    border-bottom: 5px solid black;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.fondo{
+    background-image: url(https://previews.123rf.com/images/olgamilagros/olgamilagros1511/olgamilagros151100070/48622393-seamless-pattern-of-christmas-texture-icons-on-white-background-.jpg);
+    &::before{
+    content: "";
+    width: 100%;
+    height: 150%;
+    background-color: #ffffffc7;
+    position: fixed;
+    }
+    div{
+        position: relative;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    padding-bottom: 30px;
+}
+
+.ejercicio{
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 70%;
+    margin: 0px auto;
+    padding: 30px 0px;
+    [type="text"],[type="number"],textarea{
+        max-width: 300px;
+        width: 50%;
+        display: block;
+        margin: 15px auto;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .resultado{
+        padding: 10px 20px;
+        text-align: left;
+        background-color: #f8f8f8;
+        min-height: 100px;
+        width: 80%;
+        margin: 15px auto;
+        border: 2px dotted #999;
+    }
+    .dado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 0px auto;
+        .punto{
+            margin: 5px 10px;
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            border-radius: 10px;
+        }
+    }
+    .color{
+        color:red;
+    }
+}
+
+footer {
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    padding: 4px 0;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
